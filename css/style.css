@@ -1,3 +1,12 @@
-body {
+html, body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.title-heading {
+}
+
+.title-heading-conatainer {
+    border: 3px solid black;
+    text-align: center;
 }
