@@ -10,4 +10,14 @@ nav {
 
 .container {
   padding-top: 15px !important;
+  border-top: 1px solid grey;
 }
+
+.par-padding-left {
+  padding-left: 30px;
+}
+
+.par-padding-right {
+  padding-right: 30px;
+}
+
