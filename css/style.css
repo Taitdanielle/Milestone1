@@ -1,16 +1,14 @@
-html {
-  background-color: #4E8397;
-}
-
-head {
+body {
   font-family: 'Lato', sans-serif;
+  display: block;
+  background-color: #D5CABD;
 }
 
 nav {
   display: block;
-  background-color: #D5CABD;
-
-}
+  background-color: #4E8397;
+  color: white;
+  }
 
 .container {
   padding-top: 15px !important;
@@ -18,6 +16,7 @@ nav {
 
 .par-padding-left {
   padding-left: 30px;
+  
 }
 
 .par-padding-right {
@@ -28,9 +27,33 @@ h1 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+h2 {
+  padding-top: 10px;
+}
 h3 {
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 h5 {
   margin-left: 2px;
+}
+
+p { 
+  color: #4E8397;
+}
+
+.card-one {
+    width: 18rem;
+    padding-top: 10px;
+    border-color: #fff;
+    border-width: 20px;
+}
+
+.card-two {
+    width: 18rem;
+    padding-top: 10px;
+}
+
+.card-three {
+    width: 18rem;
+    padding-top: 10px;
 }
