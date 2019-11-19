@@ -1,16 +1,19 @@
-.head {
-  display: block;
-  background-color: #4E8397
+html {
+  background-color: #4E8397;
+}
+
+head {
+  font-family: 'Lato', sans-serif;
 }
 
 nav {
   display: block;
   background-color: #D5CABD;
+
 }
 
 .container {
   padding-top: 15px !important;
-  border-top: 1px solid grey;
 }
 
 .par-padding-left {
@@ -21,3 +24,13 @@ nav {
   padding-right: 30px;
 }
 
+h1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h3 {
+  padding-bottom: 5px;
+}
+h5 {
+  margin-left: 2px;
+}
