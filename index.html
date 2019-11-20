@@ -11,28 +11,47 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
-
-<!-- nav -->
-
-<nav>
-    <div class="container">
-        <div class="col-md-12">
-            <a href="/about/">About</a> |
-            <a href="/book/">Book</a> |
-            <a href="/architecture/">Architecture</a> |
-            <a href="/reviews/">Reviews</a>
-        </div>
-    </div>
-</nav>
-
-<!-- nav -->
-
 <body>
 
+    <!-- nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Gaudi in a Day</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav -->
+
     <div class="container">
-        <h1 class="display-4">Gaudi in a Day</h1>
+        <h1 class="display-4">Gaudí in a Day</h1>
         <h3>There are landmark's you must see when in Barcelona and for Gaudí fans this is the right place to be!</h3>
     </div>
+
+    <hr class="block-divider block-divider--short">
 
     <div class="container">
         <h2> How to do Gaudí in a day!</h2>
@@ -45,18 +64,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card-one">
-                    <img src="images/gaudi2.jpg" class="card-img-top" alt="Casa Battlo Building">
+            <div class="col-md-4" id="#card1">
+                <div class="card-class">
+                    <img src="images/gaudi2.jpg" class="card-img-top" alt="Casa Battlo Building"></a>
                     <div class="card-body">
-                        <p class="card-text"<b>Casa Batlló</b>
+                        <p class="card-text" <b>Casa Batlló</b>
                         </p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
-                <div class="card-two">
+                <div class="card-class">
                     <img src="images/Sta-eulalia.jpg" class="card-img-top" alt="The Cathedral of Barcelona">
                     <div class="card-body">
                         <p class="card-text" <b>The Cathedral of Barcelona</b>
@@ -66,7 +85,7 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card-one">
+                <div class="card-class">
                     <img src="images/sagrada-familia.jpg" class="card-img-top" alt="sagrada familia">
                     <div class="card-body">
                         <p class="card-text"><b>Sagrada Familia</b>
@@ -75,73 +94,189 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Gaudi info -->
 
-        <!-- Gaudi info -->
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 title-heading-conatainer">
-                    <h3 class="title-heading"> Antoni Gaudí </h3>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/gaudi.jpg">
-                </div>
-                <div class="col-md-4">
-                    <h5>Was a Spanish architect known as the greatest exponent of Catalan Modernism. Gaudí's works have a highly individualized, one-of-a-kind style. Most are located in Barcelona, including his main work,the church of the Sagrada Família.
-                        25 June 1852 – 10 June 1926 </h5>
-                    <a href="https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD">More info on Gaudí</a>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 title-heading-conatainer">
+                <h3 class="title-heading"> Antoni Gaudí </h3>
+            </div>
+            <div class="col-md-4">
+                <img src="images/gaudi.jpg">
+            </div>
+            <div class="col-md-4">
+                <h5>Was a Spanish architect known as the greatest exponent of Catalan Modernism. Gaudí's works have a highly individualized, one-of-a-kind style. Most are located in Barcelona, including his main work,the church of the Sagrada Família. 25
+                    June 1852 – 10 June 1926 </h5>
+                <a href="https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD">More info on Gaudí</a>
             </div>
         </div>
+    </div>
 
-        <!-- Gaudi info End -->
+    <!-- Gaudi info End -->
 
-        <!-- image info -->
+    <!-- image info -->
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="images/Sta-eulalia.jpg" class="rounded float-left" alt="barrigotic building">
-                </div>
-                <div class="col-md-10">
-                    <p class="par-padding-left">Barcelona Cathedral - The Cathedral of the Holy Cross and Saint Eulalia (Catalan: Catedral de la Santa Creu i Santa Eulàlia), also known as Barcelona Cathedral, is the Gothic cathedral and seat of the Archbishop of Barcelona, Catalonia,
-                        Spain. The cathedral was constructed from the thirteenth to fifteenth centuries, with the principal work done in the fourteenth century. The cloister, which encloses the Well of the Geese (Font de les Oques) was completed in 1448.[2]
-                        In the late nineteenth century, the neo-Gothic façade was constructed over the nondescript exterior that was common to Catalan churches. The roof is notable for its gargoyles, featuring a wide range of animals, both domestic and
-                        mythical.</p>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="images/Sta-eulalia.jpg" class="rounded float-left" alt="barrigotic building">
+            </div>
+            <div class="col-md-10">
+                <p class="par-padding-left">Barcelona Cathedral - The Cathedral of the Holy Cross and Saint Eulalia (Catalan: Catedral de la Santa Creu i Santa Eulàlia), also known as Barcelona Cathedral, is the Gothic cathedral and seat of the Archbishop of Barcelona, Catalonia,
+                    Spain. The cathedral was constructed from the thirteenth to fifteenth centuries, with the principal work done in the fourteenth century. The cloister, which encloses the Well of the Geese (Font de les Oques) was completed in 1448.[2]
+                    In the late nineteenth century, the neo-Gothic façade was constructed over the nondescript exterior that was common to Catalan churches. The roof is notable for its gargoyles, featuring a wide range of animals, both domestic and mythical.
+                </p>
             </div>
         </div>
+    </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10">
-                    <p class="par-padding-right"> Casa Batlló - A building in the center of Barcelona. It was designed by Antoni Gaudí, and is considered one of his masterpieces. A remodel of a previously built house, t was redesigned in 1904 by Gaudí and has been refurbished several
-                        times after that. Gaudí's assistants Domènec Sugrañes i Gras, Josep Canaleta and Joan Rubió also contributed to the renovation project. The local name for the building is Casa dels ossos (House of Bones), as it has a visceral,
-                        skeletal organic quality. It is located on the Passeig de Gràcia in the Eixample district, and forms part of a row of houses known as the Illa de la Discòrdia (or Mansana de la Discòrdia, the "Block of Discord"), which consists
-                        of four buildings by noted Modernista architects of Barcelona.</p>
-                </div>
-                <div class="col-md-2">
-                    <img src="images/gaudi2.jpg" class="rounded float-right" alt="Building">
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <p class="par-padding-right" id="#card1"> Casa Batlló - A building in the center of Barcelona. It was designed by Antoni Gaudí, and is considered one of his masterpieces. A remodel of a previously built house, t was redesigned in 1904 by Gaudí and has been refurbished several
+                    times after that. Gaudí's assistants Domènec Sugrañes i Gras, Josep Canaleta and Joan Rubió also contributed to the renovation project. The local name for the building is Casa dels ossos (House of Bones), as it has a visceral, skeletal
+                    organic quality. It is located on the Passeig de Gràcia in the Eixample district, and forms part of a row of houses known as the Illa de la Discòrdia (or Mansana de la Discòrdia, the "Block of Discord"), which consists of four buildings
+                    by noted Modernista architects of Barcelona.</p>
+            </div>
+            <div class="col-md-2">
+                <img src="images/gaudi2.jpg" class="rounded float-right" alt="Building">
             </div>
         </div>
+    </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="images/sagrada-familia-1028930_1920.jpg" class="rounded float-left" alt=building>
-                </div>
-                <div class="col-md-10">
-                    <p class="par-padding-left"> The Basílica de la Sagrada Família, is a large unfinished Roman Catholic minor basilica in Barcelona, Catalonia. Designed by Catalan architect Antoni Gaudí (1852–1926), his work on the building is part of a UNESCO World Heritage Site.On
-                        19 March 1882, construction of the Sagrada Família began under architect Francisco de Paula del Villar. In 1883, when Villar resigned, Gaudí took over as chief architect, transforming the project with his architectu>yle, combining
-                        Gothic and curvilinear Art Nouveau forms. Gaudí devoted the remainder of his life to the project, and he is buried in the crypt. At the time of his death in 1926, less than a quarter of the project was complete. Relying solely
-                        on private donations, the Sagrada Família's construction progressed slowly and was interrupted by the Spanish Civil War. In July 1936, revolutionaries set fire to the crypt and broke their way into the workshop, partially destroying
-                        Gaudí's original plans, drawings and plaster models, which led to 16 years work to piece together the fragments of the master model. Construction resumed to intermittent progress in the 1950s. Advancements in technologies such
-                        as computer aided design and computerised numerical control (CNC) have since enabled faster progress and construction passed the midpoint in 2010. However, some of the project's greatest challenges remain, including the construction
-                        of ten more spires, each symbolising an important Biblical figure in the New Testament. It is anticipated that the building can be completed by 2026, the centenary of Gaudí's death.</p>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="images/sagrada-familia.jpg" class="rounded float-left" alt=building>
+            </div>
+            <div class="col-md-10">
+                <p class="par-padding-left"> The Basílica de la Sagrada Família, is a large unfinished Roman Catholic minor basilica in Barcelona, Catalonia. Designed by Catalan architect Antoni Gaudí (1852–1926), his work on the building is part of a UNESCO World Heritage Site.On
+                    19 March 1882, construction of the Sagrada Família began under architect Francisco de Paula del Villar. In 1883, when Villar resigned, Gaudí took over as chief architect, transforming the project with his architectu>yle, combining
+                    Gothic and curvilinear Art Nouveau forms. Gaudí devoted the remainder of his life to the project, and he is buried in the crypt. At the time of his death in 1926, less than a quarter of the project was complete. Relying solely on private
+                    donations, the Sagrada Família's construction progressed slowly and was interrupted by the Spanish Civil War. In July 1936, revolutionaries set fire to the crypt and broke their way into the workshop, partially destroying Gaudí's original
+                    plans, drawings and plaster models, which led to 16 years work to piece together the fragments of the master model. Construction resumed to intermittent progress in the 1950s. Advancements in technologies such as computer aided design
+                    and computerised numerical control (CNC) have since enabled faster progress and construction passed the midpoint in 2010. However, some of the project's greatest challenges remain, including the construction of ten more spires, each
+                    symbolising an important Biblical figure in the New Testament. It is anticipated that the building can be completed by 2026, the centenary of Gaudí's death.</p>
             </div>
         </div>
+    </div>
+    <!-- Reviews -->
+
+    </section>
+    </div>
+    </div>
+    <!-- /.callout -->
+    </div>
+
+    <!-- Quotes -->
+    <div class="container-wrapper">
+        <div class="container quotes-container content-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Quotes:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I haven't been sober for months!</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Reviews end -->
+
+    <!-- footer -->
+
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">About</h5>
+                <p class="inline-block">
+                    FILL THIS IN LATER
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    EXAMPLEEEE
+                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</footer>
 </body>
 
 </html>

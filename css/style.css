@@ -1,14 +1,12 @@
-body {
-  font-family: 'Lato', sans-serif;
-  display: block;
-  background-color: #D5CABD;
+html {
+  scroll-behavior: smooth
+  
 }
 
-nav {
-  display: block;
-  background-color: #4E8397;
-  color: white;
-  }
+body {
+  font-family: 'Lato', sans-serif;
+
+}
 
 .container {
   padding-top: 15px !important;
@@ -21,6 +19,56 @@ nav {
 
 .par-padding-right {
   padding-right: 30px;
+}
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
 
 h1 {
@@ -41,19 +89,11 @@ p {
   color: #4E8397;
 }
 
-.card-one {
-    width: 18rem;
-    padding-top: 10px;
-    border-color: #fff;
-    border-width: 20px;
-}
-
-.card-two {
+.card-class {
     width: 18rem;
     padding-top: 10px;
 }
 
-.card-three {
-    width: 18rem;
-    padding-top: 10px;
+.quotes .page-header {
+    margin-bottom: 25px;
 }
