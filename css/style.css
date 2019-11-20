@@ -8,6 +8,9 @@ body {
 
 }
 
+title {
+  margin-top: 50px;
+}
 .container {
   padding-top: 15px !important;
 }
@@ -72,14 +75,19 @@ footer {
 }
 
 h1 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  
 }
 h2 {
-  padding-top: 10px;
+ margin-top: 50px;
+
+  
 }
 h3 {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 h5 {
   margin-left: 2px;
@@ -87,6 +95,7 @@ h5 {
 
 p { 
   color: #4E8397;
+  margin-bottom: 50px;
 }
 
 .card-class {
@@ -94,6 +103,7 @@ p {
     padding-top: 10px;
 }
 
-.quotes .page-header {
-    margin-bottom: 25px;
+.quotes {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
