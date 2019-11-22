@@ -5,7 +5,13 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  line-height: 2.5rem;
+  font-size: 1rem;
 
+}
+
+hr {
 }
 
 title {
@@ -31,44 +37,6 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
 
 #footer-details {
     padding: 20px;
@@ -76,18 +44,17 @@ footer {
 
 h1 {
   margin-top: 50px;
-  margin-bottom: 50px;
   text-align: center;
   
 }
 h2 {
  margin-top: 50px;
-
-  
 }
+
 h3 {
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   text-align: center;
+  padding-top: 50px;
 }
 h5 {
   margin-left: 2px;
@@ -96,14 +63,33 @@ h5 {
 p { 
   color: #4E8397;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .card-class {
     width: 18rem;
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .quotes {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.rounded {
+    border-radius: 0.5rem!important;
+}
+
+.float-left {
+    float: left!important;
+}
+
+.float-right {
+    float: right!important;
+}
+
+img { 
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
