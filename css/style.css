@@ -1,17 +1,12 @@
 html {
   scroll-behavior: smooth
-  
+ font-family: 'Lato', sans-serif;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
   font-weight: 600;
   line-height: 2.5rem;
   font-size: 1rem;
-
-}
-
-hr {
 }
 
 title {
@@ -61,7 +56,7 @@ h5 {
 }
 
 p { 
-  color: #4E8397;
+  color: #4B4453;
   margin-bottom: 50px;
   margin-top: 50px;
 }
@@ -92,4 +87,11 @@ p {
 img { 
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.block-divider {
+    width: 150px;
+    height: 5px;
+    border: 0;
+    background-color:#B0A8B9;
 }
