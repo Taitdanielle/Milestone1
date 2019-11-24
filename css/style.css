@@ -26,7 +26,7 @@ title {
 }
 
 footer {
-    background-color: #525252;
+    background-color: #4B4453;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -94,4 +94,9 @@ img {
     height: 5px;
     border: 0;
     background-color:#B0A8B9;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
 }
