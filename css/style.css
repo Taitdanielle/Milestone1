@@ -66,6 +66,10 @@ h5 {
   text-align: center;
 }
 
+#intro-image p {
+  color: #fff;
+}  
+
 p { 
   color: #4B4453;
   margin-bottom: 50px;
@@ -76,6 +80,11 @@ p {
     width: 18rem;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.card-class img:hover{
+  height:410px;
+  width:320px ;
 }
 
 img { 
