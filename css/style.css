@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
  font-family: 'Lato', sans-serif;
 }
 
@@ -47,12 +47,13 @@ h2 {
 }
 
 h3 {
-  padding-bottom: 30px;
+  margin-top: 50px;
   text-align: center;
-  padding-top: 50px;
+  margin-bottom: 50px;
 }
 h5 {
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -79,15 +80,6 @@ img {
   margin-bottom: 50px;
 }
 
-.zoom {
-  padding: 50px;
-  background-color: transparent;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
 .block-divider {
     width: 150px;
     height: 5px;
@@ -95,3 +87,11 @@ img {
     background-color:#B0A8B9;
 }
 
+background-image {
+  background: url('../images/background.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
