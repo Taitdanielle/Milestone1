@@ -105,3 +105,8 @@ img {
     justify-content: center;
     text-align: center;
 }
+
+form {
+  text-align: center;
+  padding-bottom: 50px;
+}
