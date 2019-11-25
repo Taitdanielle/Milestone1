@@ -161,15 +161,66 @@
         </div>
     </div>
 
-    <h3> For more information fill in the below</h3>
-    <form>
-        First name:<br>
-        <input type="text" name="firstname"><br> Last name:<br>
-        <input type="text" name="lastname">
-    </form>
+    <hr class="block-divider block-divider--short">
+    
+    <section class="container-fluid form mt-4" id="contact" "text-center">
+        <form action="#" method="post">
+            <h2 class="text-center">Contact Form</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="form-name">First Name</label>
+                    <input type="text" class="form-control" id="form-name" placeholder="Enter name" name="name required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Enter last name" name="lastname required">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email required" id="email" placeholder="email address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text required"></textarea>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div id="book">
+                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Click to
+            Book</button>
 
+            </div>
 
-    <!-- Reviews -->
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Thank you for contacting me</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>I will respond to you as soon as possible.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            </main>
+            <!-- Reviews -->
 
     </section>
     </div>
@@ -219,6 +270,8 @@
         </section>
 
         <!-- Reviews end -->
+
+
 
         <!-- footer -->
 

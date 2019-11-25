@@ -96,11 +96,9 @@ img {
     text-align: center;
 }
 
-form {
+.section {
   text-align: center;
-  padding-bottom: 50px;
 }
-
 footer {
     background-color: #db441f;
     color: #fff;
