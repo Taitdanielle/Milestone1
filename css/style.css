@@ -13,6 +13,24 @@ title {
   margin-top: 50px;
 }
 
+#intro-image {
+    background: url(../images/background.jpg) no-repeat center 75%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .container {
   padding-top: 15px !important;
 }
@@ -60,12 +78,6 @@ p {
     padding-bottom: 50px;
 }
 
-.quotes {
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-
 img { 
   margin-top: 50px;
   margin-bottom: 50px;
@@ -78,27 +90,17 @@ img {
     background-color: #db441f;
 }
 
-#intro-image {
-    background: url(../images/background.jpg) no-repeat center 75%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+
+.quotes {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
+
 
 section {
   text-align: center;
 }
+
 footer {
     background-color: #db441f;
     color: #fff;
