@@ -8,10 +8,10 @@ body {
   line-height: 2.5rem;
   font-size: 1rem;
 }
-
 title {
   margin-top: 50px;
 }
+
 .container {
   padding-top: 15px !important;
 }
@@ -26,7 +26,7 @@ title {
 }
 
 footer {
-    background-color: #4B4453;
+    background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -47,12 +47,13 @@ h2 {
 }
 
 h3 {
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   text-align: center;
   padding-top: 50px;
 }
 h5 {
-  margin-left: 2px;
+  margin-top: 50px;
+  text-align: center;
 }
 
 p { 
@@ -72,21 +73,19 @@ p {
     margin-top: 50px;
 }
 
-.rounded {
-    border-radius: 0.5rem!important;
-}
-
-.float-left {
-    float: left!important;
-}
-
-.float-right {
-    float: right!important;
-}
 
 img { 
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: transparent;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 .block-divider {
@@ -96,7 +95,3 @@ img {
     background-color:#B0A8B9;
 }
 
-body {
-  background-image: url("background.jpg");
-  background-repeat: no-repeat;
-}
