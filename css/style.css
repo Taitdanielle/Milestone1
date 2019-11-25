@@ -86,15 +86,9 @@ p {
   height:410px;
   width:320px ;
 }
-
 img { 
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-:hover added {
-  transform: perspective(10px);
-  
 }
 
 .block-divider {
@@ -102,17 +96,17 @@ img {
     height: 5px;
     border: 0;
     background-color: #db441f;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-
-
 .quotes {
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-
 section {
   text-align: center;
+  color: #4B4453;
 }
 
 footer {
