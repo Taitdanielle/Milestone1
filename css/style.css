@@ -26,17 +26,7 @@ title {
   padding-right: 30px;
 }
 
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
 
-
-#footer-details {
-    padding: 20px;
-}
 
 h1 {
   margin-top: 50px;
@@ -85,7 +75,7 @@ img {
     width: 150px;
     height: 5px;
     border: 0;
-    background-color:#B0A8B9;
+    background-color: #db441f;
 }
 
 #intro-image {
@@ -109,4 +99,16 @@ img {
 form {
   text-align: center;
   padding-bottom: 50px;
+}
+
+footer {
+    background-color: #db441f;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+#footer-details {
+    padding: 20px;
 }
