@@ -88,11 +88,20 @@ img {
     background-color:#B0A8B9;
 }
 
-background-image {
-  background: url('../images/background.jpg') no-repeat bottom right fixed;
+#intro-image {
+    background: url(../images/background.jpg) no-repeat center 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
