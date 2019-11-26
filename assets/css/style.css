@@ -10,6 +10,7 @@ body {
 }
 .bg-light {
     background-color: #fff;
+    position: fixed;
 }
 navbar {
   color: #4B4453
@@ -24,7 +25,6 @@ a:nav-link {
   background-color: #F37748;
   color: #4B4453;
 }
-
 title {
   margin-top: 50px;
 }
