@@ -90,3 +90,19 @@ and the images wasn't working on most browesers. but I have kept it for better U
 
 This was used on a number of occasions to find bugs with my code and missing items this was found on Dev tools and code verifier.</p>
 
+<h2>Deployment<h2>
+
+<p>The current deployment of this project was done using AWS Cloud 9.
+
+I used the Cloud 9 interface to write the code and as it is linked with github as it was easy to use the terminal to commit my files and push to my repository, I did come accross a few
+issues using this especiallly commiting and pushing to GITHub I will use a more effective interface in the future.
+
+The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website. Deployment was done by clicking on the settings tab on my repository then navigating to "Github pages" Changing the source from none to master, this then deployed a link that can be found here : https://taitdanielle.github.io/Milestone1/
+
+To run this site locally:
+
+* Click clone / download
+* Choose your preffered method (Zip or github desktop)
+* Open in your preffered IDE
+* Run on local server</p>
+
