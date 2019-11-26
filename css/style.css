@@ -1,5 +1,4 @@
 html {
-  scroll-behavior: smooth;
  font-family: 'Lato', sans-serif;
 }
 
@@ -23,10 +22,6 @@ title {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -35,7 +30,7 @@ title {
 }
 
 .container {
-  padding-top: 15px !important;
+  padding-top: 15px
 }
 
 .par-padding-left {
@@ -76,8 +71,7 @@ p {
 }
 
 .card-class img:hover{
-  height:410px;
-  width:320px ;
+   opacity: 0.3;
 }
 
 img { 
@@ -134,9 +128,8 @@ footer {
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
-    text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: transparent;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
