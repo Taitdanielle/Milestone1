@@ -41,6 +41,15 @@ Reviews: This section expresses previous people who have experienced Gaudis work
 
 Contact: Is a section to ask for more information, speak to us or book the day.</p>
 
+<h3> Excisting Features</h3>
+
+* Nav bar that is easily used and acccesable
+* Contact section to speak with us
+* Smooth scrolling which is better UX
+* Amazing images
+
+<h3>Features Left to Implement</h3>
+
 <h2>Technologies Used<.h2>
 
 * HTML5
