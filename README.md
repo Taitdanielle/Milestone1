@@ -27,3 +27,4 @@ Other features that are to note is the user can get intouch  easily by navigatio
 * [Landing Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/toppage.png)
 * [Information Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/middle.png)
 * [Bottom Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/bottom.png)
+* [Tablet&Mobile Landing Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/tabletmobile.png)
