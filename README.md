@@ -106,3 +106,36 @@ To run this site locally:
 * Open in your preffered IDE
 * Run on local server</p>
 
+<h2>Credits</h2>
+
+<h3>Content</h3>
+
+* Wikipedia was used for the information on Gaudi 
+* Gave a great break down and helped me understand modal forms, I also used their example of the modal form - but was heavily modified to work for my project. https://mdbootstrap.com/docs/jquery/modals/forms/
+* Original wireframes were created with Balsamiq
+* readme template taken from https://github.com/Code-Institute-Solutions/readme-template
+
+
+* https://ajgreaves.github.io/bootstrap-grid-demo/index.html bootstrap cheat sheet to help remember class names and show what classes done etc.
+
+<h3>Media</3>
+
+<p>The photos used in this site were obtained from ...</p>
+
+* Wikipedia I had chaged the settings for images to be used for non comercial use along with google images
+* 
+<h3>Acknowledgements</h3>
+
+I received inspiration for this project from...
+
+* My love for Achitectuer
+* All the guys at Slack especially Stevo who helped me alot
+* Richard Wells for the feedback on my Page
+* Anthony for the support
+
+<p>This project is for educational use only
+
+Created by Danielle Tait</p>
+
+
+
