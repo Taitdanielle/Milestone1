@@ -1,7 +1,7 @@
 <h1> Gaudi in a Day! </h1>
 <p>Milestone 1 Project - User-Centric Frontend Development 
 
-A deployed link to the website can be found [here](https://taitdanielle.github.io/Milestone1/")
+A deployed link to the website can be found [here](https://taitdanielle.github.io/Milestone1/)
 <h2>UX</h2>
 <p>The idea behind this project was to give Gaudi lovers a chance to cram in as much archutecture in one day as they could when having the opertunity of being in Barcelona.
 I personally have never been to Barcelona but would love to one day to get the oppertinity to see Gaudis work like this page gives the oppertinity to, It has 
@@ -16,10 +16,10 @@ The benefit of the project is to show of the Gaudi buldings in an inviting way w
 Other features that are to note is the user can get intouch  easily by navigation to the social links.
 
 
-*As a user I want to find out more about Antoni Gaudi
-*As a user I want to find this information easily without many clicks
-*As a user I want to know more about the arcutetchure
-*As a user I want to get in touch with you easily
-*As a user I want to be able to find your contact details and social links easily
-*As a user I want to view this information on my mobile device or tablet
-*As a user I want to view this information with ease
+* As a user I want to find out more about Antoni Gaudi
+* As a user I want to find this information easily without many clicks
+* As a user I want to know more about the arcutetchure
+* As a user I want to get in touch with you easily
+* As a user I want to be able to find your contact details and social links easily
+* As a user I want to view this information on my mobile device or tablet
+* As a user I want to view this information with ease
