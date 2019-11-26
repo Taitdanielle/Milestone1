@@ -1,4 +1,5 @@
 html {
+  scroll-behaviour: smooth;
   font-family: 'Lato', sans-serif;
 }
 
