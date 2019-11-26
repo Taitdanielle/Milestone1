@@ -12,9 +12,6 @@ body {
     background-color: #fff;
     position: fixed;
 }
-navbar {
-  color: #4B4453
-}
 
 nav a:hover {
   background-color: #F37748;
