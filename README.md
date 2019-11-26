@@ -30,3 +30,23 @@ Other features that are to note is the user can get intouch  easily by navigatio
 * [Information Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/middle.png)
 * [Bottom Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/bottom.png)
 * [Tablet&Mobile Landing Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/tabletmobile.png)
+
+<h2> Features</h2>
+
+<p>The homepage will be a landing page for the user and will catch their eye with the mosaic background.
+
+About: This section covers a little bit about Antoni Gaudi and a link to his Wikipedia webpage.
+
+Reviews: This section expresses previous people who have experienced Gaudis work through the page.
+
+Contact: Is a section to ask for more information, speak to us or book the day.</p>
+
+<h2>Technologies Used<.h2>
+
+* HTML5
+* CSS3
+* Bootstrap v4.3.1
+* Google Chrome Dev tools for debugging
+* AWS Cloud 9 to beautify code
+* JQuery The project uses JQuery to simplify DOM manipulation.
+
