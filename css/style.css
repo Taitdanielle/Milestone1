@@ -16,8 +16,7 @@ title {
 }
 
 #intro-image {
-    background: url(../images/background.jpg) no-repeat center 75%;
-    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,1));
+    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.2) 0%, rgba(73, 65, 59, 0.2) 100%), url(../images/background.jpg) no-repeat center 75%;
     background-size: cover;
     position: relative;
     height: 60vh;
