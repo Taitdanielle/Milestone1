@@ -1,5 +1,5 @@
 html {
- font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -7,12 +7,13 @@ body {
   line-height: 2.5rem;
   font-size: 1rem;
 }
+
 .navbar {
   background-color: #fff;
 }
 
 nav a:hover {
-  background-color: #db441f;
+  background-color: #F37748;
   color: #fff;
 }
 
@@ -21,14 +22,14 @@ title {
 }
 
 #intro-image {
-    background: linear-gradient(to bottom, rgba(136, 136, 136, 0.2) 0%, rgba(73, 65, 59, 0.2) 100%), url(../images/background.jpg) no-repeat center 75%;
-    background-size: cover;
-    position: relative;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  background: linear-gradient(to bottom, rgba(34, 143, 255, 0.4) 0%, rgba(79, 70, 87, 0.3) 100%), url(../images/background.jpg) no-repeat center 75%;
+  background-size: cover;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #grad {
@@ -41,7 +42,7 @@ title {
 
 .par-padding-left {
   padding-left: 30px;
-  
+
 }
 
 .par-padding-right {
@@ -50,52 +51,59 @@ title {
 
 
 
-h1,
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+}
+
 h2,
 h3,
 h4,
 h5 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 #intro-image p {
   color: #fff;
-}  
+}
 
-p { 
+p {
   color: #4B4453;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
 .card-class {
-    width: 18rem;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  width: 18rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.card-class img:hover{
-   opacity: 0.3;
+.card-class img:hover {
+  opacity: 0.3;
 }
 
-img { 
+img {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 .block-divider {
-    width: 150px;
-    height: 5px;
-    border: 0;
-    background-color: #db441f;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  width: 150px;
+  height: 5px;
+  border: 0;
+  background-color: #F37748;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 .quotes {
-    margin-bottom: 50px;
-    margin-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 section {
@@ -104,14 +112,14 @@ section {
 }
 
 footer {
-    background-color: #db441f;
-    color: #fff;
-    min-height: 120px;
-    margin: 0;
+  background-color: #F37748;
+  color: #fff;
+  min-height: 120px;
+  margin: 0;
 }
 
 #footer-details {
-    padding: 20px;
+  padding: 20px;
 }
 
 .fa {
@@ -128,20 +136,20 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    color: #fafafa;
-    background: transparent;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  color: #fafafa;
+  background: transparent;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #4B4453;
+  background: #4B4453;
 }
