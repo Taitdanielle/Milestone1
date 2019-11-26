@@ -17,9 +17,7 @@ title {
 
 #intro-image {
     background: url(../images/background.jpg) no-repeat center 75%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,1));
     background-size: cover;
     position: relative;
     height: 60vh;
@@ -27,6 +25,10 @@ title {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#grad {
+  background-image: linear-gradient(transparent);
 }
 
 .container {
@@ -93,8 +95,8 @@ img {
 }
 
 section {
-  text-align: center;
   color: #4B4453;
+  text-align: center;
 }
 
 footer {
