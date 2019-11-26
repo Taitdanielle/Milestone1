@@ -23,3 +23,7 @@ Other features that are to note is the user can get intouch  easily by navigatio
 * As a user I want to be able to find your contact details and social links easily
 * As a user I want to view this information on my mobile device or tablet
 * As a user I want to view this information with ease
+
+* [Landing Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/toppage.png)
+* [Information Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/middle.png)
+* [Bottom Page](https://github.com/Taitdanielle/Milestone1/blob/master/assets/images/wireframes/bottom.png)
