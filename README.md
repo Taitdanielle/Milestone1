@@ -90,7 +90,7 @@ and the images wasn't working on most browesers. but I have kept it for better U
 
 This was used on a number of occasions to find bugs with my code and missing items this was found on Dev tools and code verifier.</p>
 
-<h2>Deployment<h2>
+<h2>Deployment</h2>
 
 <p>The current deployment of this project was done using AWS Cloud 9.
 
